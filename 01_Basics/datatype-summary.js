@@ -40,3 +40,34 @@ const myFunction= function(){
 
 console.log(typeof BigNum);
 console.log(typeof myFunction);
+
+
+
+
+
+
+
+
+// +++++++++++++MEMORY+++++++++++++++
+
+//stack(primitive),heap(non-primitive)
+
+let myLinkedIn="VeerPratapSingh"
+let anothername=myLinkedIn  //copy in this
+anothername="SagarPratapSingh"
+
+console.log(myLinkedIn);
+console.log(anothername);
+
+
+let userOne={
+    email:"veerpratap1876@gmail.com",
+    Upi: "user@okaxis",
+}
+
+let userTwo=userOne  //reference in this
+
+userTwo.email="veer.21b0121018@abes.ac.in"
+
+console.log(userOne.email);
+console.log(userTwo.email);
